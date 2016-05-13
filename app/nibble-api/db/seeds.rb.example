@@ -1,0 +1,25 @@
+
+->() {
+  User.new(email: 'admin@nibble.com',
+           password: 'n!=n*(n-1)!',
+           password_confirmation: 'n!=n*(n-1)!',
+           first_name: 'Rob',
+           last_name: 'Zombie').save!
+}[]
+
+
+/*
+
+To whom it may concern,
+
+  {
+    intro: "I believe the future of modern software design is through API's",
+    body: "I want to build reuseable extendible code. I believe this all begins with API's.",
+    conclusision: ""
+  }
+
+
+
+Regards,
+Rob Ortiz
+*/
