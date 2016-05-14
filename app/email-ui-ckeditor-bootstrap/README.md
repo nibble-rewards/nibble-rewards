@@ -10,7 +10,7 @@ cd email-ui-ckeditor-bootstrap
 python -m SimpleHTTPServer 
 ```
 
-then point your browser to http://localhost:8000
+then point your browser to [http://localhost:8000](http://localhost:8000)
 
 very simple single page application that connects to a rails backend api
 and has the ability to submit an email
