@@ -60,8 +60,13 @@ vist https://app-smtp.sendinblue.com/ to setup a free account allowing 300 email
 edit the seeds.rb to any username password to your liking ... if there's more than one by all means
 
 4. finally setup db
+(since we're using postgres there's no username or password within the database.yml
+ however most db configs possess this therefore it's good practice to keep this
+ ignored in the source)
 
 ```
+cp config/database.yml.example config/database.yml 
+rake db:create
 rake db:setup
 ```
 
