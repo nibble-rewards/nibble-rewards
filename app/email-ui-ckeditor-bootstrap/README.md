@@ -1,6 +1,11 @@
 
 ###ajax email
 
+very simple single page application that connects to a rails backend api
+and has the ability to submit an email
+
+combining this with the rails back end demonstrates how different 
+clients can connect to the same API backend
 
 **usage**
 
@@ -15,11 +20,10 @@ python -m SimpleHTTPServer
 
 then point your browser to [http://localhost:8000](http://localhost:8000)
 
-very simple single page application that connects to a rails backend api
-and has the ability to submit an email
+**screen shots**
 
-combining this with the rails back end demonstrates how different 
-clients can connect to the same API backend
+![login](http://upload.dragonwrench.com/uploads/Screen%20Shot%202016-05-14%20at%2012.03.36%20AM.png)
+![compose](http://upload.dragonwrench.com/uploads/Screen%20Shot%202016-05-13%20at%2011.49.46%20PM.png)
 
 - [X]  login using api.js
 - [X] invalid login
