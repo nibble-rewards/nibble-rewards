@@ -1,3 +1,22 @@
+###
+
+
+https://gist.github.com/copremesis/4b9873e418450e01d30b5ec3d6551730
+basic authentication code that uses token based authentication with jQuery to establish
+a token based authentication to the API
+
+I'll add a repo to show the email program
+I would like to show how the login to email works ... 
+this might be more on the UI side of things but to setup some sort of 
+demonstration so we can begin building a dev cycle ... 
+
+case would be user logs in 
+user can now create an email 
+user logs out ... 
+
+very basic ... the script above is the commmuincation betwe UI and API
+
+
 ### dependencies
 
 ruby > 2.2.x
