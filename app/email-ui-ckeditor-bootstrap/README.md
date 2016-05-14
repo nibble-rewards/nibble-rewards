@@ -27,12 +27,12 @@ and has the ability to submit an email
 combining this with the rails back end demonstrates how different 
 clients can connect to the same API backend
 
--[X] login using api.js
--[X] invalid login
--[X] email can be submitted from anyone to anyone
--[ ] templates split out
--[ ] session restored if refresh is hit
--[ ] logout link
+- [X]  login using api.js
+- [X] invalid login
+- [X] email can be submitted from anyone to anyone
+- [ ] templates split out
+- [ ] session restored if refresh is hit
+- [ ] logout link
 
 
 
