@@ -2,8 +2,11 @@
 ###ajax email
 
 
+
+*usage*
 from the root of this email folder
-turn on a web server ... __*__<sub><sup>python is usually available on any *nix system</sup></sub>
+turn on a web server 
+the cheapest and usually already installed one is _python_.
 
 ```
 cd email-ui-ckeditor-bootstrap
