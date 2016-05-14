@@ -60,7 +60,7 @@ var API = function(options) {
       }).done(function(response) { 
           callback(response);
       }).fail(function(response) {
-         $('.alert').html('Login invalid').show();
+         $('.alert').html('Login Invalid').show();
       });
   }
 }
