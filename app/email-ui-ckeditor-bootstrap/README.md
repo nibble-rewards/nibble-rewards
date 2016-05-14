@@ -2,8 +2,8 @@
 ###ajax email
 
 
+**usage**
 
-*usage*
 from the root of this email folder
 turn on a web server 
 the cheapest and usually already installed one is _python_.
