@@ -11,5 +11,6 @@ Place mission critical tasks here as they come up.  Try to keep in somewhat prio
 - [ ] setup deployment script from local dev to VPS 
 - [ ] Complete initial app API
 - [ ] Acquire 30 merchant "pilot" users, these are free users
-- [ ] Acquire 30 merchant "paid"  users 
+- [ ] Acquire 30 merchant "paid"  users
+- [ ] Compile report of merchant opportunities at TRA Conference
 
