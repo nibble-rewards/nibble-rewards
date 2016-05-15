@@ -4,8 +4,8 @@ Place mission critical tasks here as they come up.  Try to keep in somewhat prio
 
 ## Goals
 
-- [ ] Finish initial wireframes of all UI views
-- [ ] Create html files based on wireframes
+- [X] Finish initial wireframes of all UI views
+- [X] Create html files based on wireframes
 - [X] Setup backend framework
 - [ ] development, staging & production environments
 - [ ] setup deployment script from local dev to VPS 
