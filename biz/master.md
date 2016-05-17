@@ -1,6 +1,6 @@
 # Links
 
-[Master Merchant List](https://docs.google.com/spreadsheets/d/15F_HB685YNcJHvBqLRsvkjHGKzlGWvQhFUl6IIuqI-k/edit#gid=2143536379) - click to access the link
+[Master Merchant List](https://docs.google.com/spreadsheets/d/15F_HB685YNcJHvBqLRsvkjHGKzlGWvQhFUl6IIuqI-k/edit#gid=2143536379)
 * TRA Marketplace Exhibitors
 * POS Type: SquareUp, Aloha, Micros
 * Texas Chain Restaurants
