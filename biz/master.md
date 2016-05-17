@@ -1,7 +1,3 @@
-# Contents
-
-All files for operating the buisiness end of the project.  This include marketing, sales, reports, clients, etc.
-
 # Links
 
 [Master Merchant List](https://docs.google.com/spreadsheets/d/15F_HB685YNcJHvBqLRsvkjHGKzlGWvQhFUl6IIuqI-k/edit#gid=2143536379) - click to access the link
