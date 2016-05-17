@@ -14,4 +14,4 @@ Place mission critical tasks here as they come up.  Try to keep in somewhat prio
 - [ ] Acquire 30 merchant "paid"  users
 - [ ] Compile report of merchant opportunities at TRA Conference (Eric)
 - [ ] Marketing Website Completion with funnel for users and merchants (Eric)
-
+- [ ] Showcase mvp to TRA exhibitors: goal is to acquire market validation and "pilot users" (Eric)
