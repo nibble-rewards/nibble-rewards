@@ -8,7 +8,7 @@
 [DropBox Files](https://drive.google.com/folderview?id=0B11xuNhidm5zd2xNbVVaQTNmMWM&usp=sharing)
 * Design Assets (Marketing & Product)
 * Industry Resources (Loyalty & Restaurant POS)
-* Business-Related Documents
+* Sales Documents
 
 
 
