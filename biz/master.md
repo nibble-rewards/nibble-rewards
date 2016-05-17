@@ -5,11 +5,13 @@
 * POS Type: SquareUp, Aloha, Micros
 * Texas Chain Restaurants
 
-[DropBox Files](https://drive.google.com/folderview?id=0B11xuNhidm5zd2xNbVVaQTNmMWM&usp=sharing)
+[DropBox Files](https://www.dropbox.com/sh/kkuv2wg4j3iko2q/AAAxSfpNp-3pZHFnB9s0S_x6a?dl=0)
 * Design Assets (Marketing & Product)
 * Industry Resources (Loyalty & Restaurant POS)
 * Sales Documents
 
-
+[Google Drive Files](https://drive.google.com/drive/u/0/folders/0B11xuNhidm5zd2xNbVVaQTNmMWM)
+* Word Documents
+* Spreadsheets
 
 
