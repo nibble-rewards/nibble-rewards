@@ -4,7 +4,7 @@ Nibble Rewards is a software application that allows brick-and-mortar merchants 
 
 ## Motivation
 
-Coming Soon...
+A man is but the product of his thoughs. What he thinks, he becomes.
 
 ## Contributing Rules
 
