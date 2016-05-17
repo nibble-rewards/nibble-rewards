@@ -2,8 +2,11 @@
 
 All files for operating the buisiness end of the project.  This include marketing, sales, reports, clients, etc.
 
-Update (5/15/16)
-I am using Google Docs to create the business documents and will provide links to all of the documents via GitHub 
+
+# Updates
+Adding updates with timestamps here
+
+5/17 - Spoke with KC from Violet Crown Restaurant. He wants to help promote Nibble at TRA 
 
 # Important Links
 
