@@ -1,5 +1,42 @@
 ###
 
+**usage**
+
+test _url_: http://upload.dragonwrench.com:3000
+test _user_: test@nibble.rewards
+test _password_: l0y@lcu$t0m3r
+
+
+pasting the following should return back a token
+```curl
+export port=3000
+#export host="http://localhost:$port"
+#export address='45.33.25.137'
+export address="http://upload.dragonwrench.com"
+export host=$address:$port
+export to="robert.a.ortiz@gmail.com"
+export USER='test@nibble.rewards'
+export PASS='l0y@lcu$t0m3r'
+
+#sign in using Curl to obtain token
+
+echo $'\nPOST' $host/api/users/sign_in
+export token=$(
+  curl -s -H "Accept: application/json" \
+          -H "Content-Type: application/json" \
+          -X POST $host/api/users/sign_in  \
+          -d "{\"user\":{\"email\":\"$USER\",\"password\":\"$PASS\"}}"  \
+          | python -mjson.tool | grep token | cut -d: -f2 | sed 's/ *[",]*//g'  \
+
+)
+echo "User's token:"
+echo $token
+
+```
+
+
+
+
 
 https://gist.github.com/copremesis/4b9873e418450e01d30b5ec3d6551730
 basic authentication code that uses token based authentication with jQuery to establish
