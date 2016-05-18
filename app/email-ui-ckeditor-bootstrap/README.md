@@ -11,9 +11,13 @@ _password_:l0y@lcu$t0m3r
 
 very simple single page application that connects to a rails backend api
 and has the ability to submit an email
-
 combining this with the rails back end demonstrates how different 
 clients can connect to the same API backend
+
+
+see https://github.com/nibble-rewards/nibble-rewards/blob/email-ui/app/email-ui-ckeditor-bootstrap/js/email.js
+
+as this does all of the events for this single page app
 
 **usage**
 
