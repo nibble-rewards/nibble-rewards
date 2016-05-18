@@ -1,5 +1,13 @@
-
 ###ajax email
+
+#flow 
+ui -> ajax -> rails api -> send-in blue api -> to: email address
+
+
+__test online here__
+[http://dragonmail.dragonwrench.com/](http://dragonwmail.dragonwrench.com)
+_user_:test@nibble.rewards
+_password_:l0y@lcu$t0m3r
 
 very simple single page application that connects to a rails backend api
 and has the ability to submit an email
