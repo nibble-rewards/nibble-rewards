@@ -1,3 +1,59 @@
+###
+
+**usage**
+
+test _url_: http://upload.dragonwrench.com:3000
+test _user_: test@nibble.rewards
+test _password_: l0y@lcu$t0m3r
+
+
+pasting the following should return back a token
+```curl
+export port=3000
+#export host="http://localhost:$port"
+#export address='45.33.25.137'
+export address="http://upload.dragonwrench.com"
+export host=$address:$port
+export to="robert.a.ortiz@gmail.com"
+export USER='test@nibble.rewards'
+export PASS='l0y@lcu$t0m3r'
+
+#sign in using Curl to obtain token
+
+echo $'\nPOST' $host/api/users/sign_in
+export token=$(
+  curl -s -H "Accept: application/json" \
+          -H "Content-Type: application/json" \
+          -X POST $host/api/users/sign_in  \
+          -d "{\"user\":{\"email\":\"$USER\",\"password\":\"$PASS\"}}"  \
+          | python -mjson.tool | grep token | cut -d: -f2 | sed 's/ *[",]*//g'  \
+
+)
+echo "User's token:"
+echo $token
+
+```
+
+
+
+
+
+https://gist.github.com/copremesis/4b9873e418450e01d30b5ec3d6551730
+basic authentication code that uses token based authentication with jQuery to establish
+a token based authentication to the API
+
+I'll add a repo to show the email program
+I would like to show how the login to email works ... 
+this might be more on the UI side of things but to setup some sort of 
+demonstration so we can begin building a dev cycle ... 
+
+case would be user logs in 
+user can now create an email 
+user logs out ... 
+
+very basic ... the script above is the commmuincation betwe UI and API
+
+
 ### dependencies
 
 ruby > 2.2.x
@@ -41,8 +97,13 @@ vist https://app-smtp.sendinblue.com/ to setup a free account allowing 300 email
 edit the seeds.rb to any username password to your liking ... if there's more than one by all means
 
 4. finally setup db
+(since we're using postgres there's no username or password within the database.yml
+ however most db configs possess this therefore it's good practice to keep this
+ ignored in the source)
 
 ```
+cp config/database.yml.example config/database.yml 
+rake db:create
 rake db:setup
 ```
 

@@ -1,0 +1,30 @@
+    body {
+      background: #eee;
+      color: #666;
+    }
+    ::-webkit-input-placeholder {
+      color: #aaa;
+    }
+    input[type=text] {
+      width: 80%;
+      background: #333;
+      color: #eee;
+      border: 0px solid #666;
+      margin-bottom: 1px;
+    }
+    .pad {
+      padding: 20px;
+    }
+    .email {
+      width: 80%;
+      margin: 0 auto;
+      background: #333;
+      border-radius: 5px;
+    }
+
+    .alert {
+      display: none;
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+    }
