@@ -33,7 +33,7 @@ class Api::CampaignsController < ApplicationController
   private
 
   def campaign_params
-    params.require(:campaign).permit(:star_amount, :mimimum_purchase, :item_name, :item_value)
+    params.require(:campaign).permit(:star_amount, :minimum_purchase, :item_name, :item_value)
   end
   
   def error(msg)
