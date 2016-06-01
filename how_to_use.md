@@ -1,5 +1,5 @@
 # How to use
-Instructions on how to use the system for different of type of users.
+Instructions on how to use the system for different types of users.
 
 ## Merchant with sqaure
 comming soon...
