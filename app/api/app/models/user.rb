@@ -6,6 +6,8 @@ class User < ActiveRecord::Base
 
   before_save :ensure_authentication_token!
 
+  has_one :campaign
+
   def ensure_authentication_token!
     
     if authentication_token.blank?

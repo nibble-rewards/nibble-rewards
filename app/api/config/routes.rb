@@ -6,5 +6,7 @@ Rails.application.routes.draw do
     #resources :uploads, :only => [:index, :show, :create]
     post '/email' => 'email#create' 
     devise_for :users
+
+    resources :campaigns
   end
 end
