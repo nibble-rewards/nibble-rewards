@@ -1,4 +1,4 @@
-# How to use
+# Getting Started
 Instructions on how to use the system for different types of users.
 
 ## Merchant with sqaure
