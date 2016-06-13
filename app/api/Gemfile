@@ -9,3 +9,5 @@ gem 'dotenv-rails', :groups => [:development, :test]
 gem 'devise'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'rails-erd'
+gem 'redcarpet', '~> 3.3', '>= 3.3.4'
+gem 'square_connect', '~>2.0'
