@@ -1,0 +1,2 @@
+module Api::MarkdownHelper
+end

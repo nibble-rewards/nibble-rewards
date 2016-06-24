@@ -7,6 +7,8 @@ class User < ActiveRecord::Base
   before_save :ensure_authentication_token!
 
   has_one :campaign
+  has_many :card_holders
+  has_one :square_integration
 
   def ensure_authentication_token!
     
