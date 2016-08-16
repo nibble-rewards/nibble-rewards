@@ -12,7 +12,10 @@ gem 'rails-erd'
 gem 'redcarpet', '~> 3.3', '>= 3.3.4'
 gem 'square_connect', '~>2.0'
 
+
 #admin ui interface into our models this will be helpful when trouble shooting API keys & campaign or cardholder data
+gem 'bootstrap-sass'
+gem 'sass-rails'
 gem 'turbolinks', '~> 2.5', '>= 2.5.3'
 gem 'activeadmin', github: 'activeadmin'
 gem 'quiet_assets' #remove log tail noise from asset pipeline
